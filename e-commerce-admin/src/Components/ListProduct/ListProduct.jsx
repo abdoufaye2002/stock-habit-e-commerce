@@ -65,7 +65,7 @@ const ListProduct = () => {
 
   return (
     <div className="listproduct">
-      <h1>All Products List</h1>
+      <h1>Liste de tout les produits</h1>
       <table className="listproduct-table">
         <thead>
           <tr>
@@ -88,8 +88,8 @@ const ListProduct = () => {
                 />
               </td>
               <td className="cartitems-product-title">{e.name}</td>
-              <td>${e.old_price}</td>
-              <td>${e.new_price}</td>
+              <td>{e.old_price}frc</td>
+              <td>{e.new_price}frc</td>
               <td>{e.category}</td>
               <td>
                 <img
